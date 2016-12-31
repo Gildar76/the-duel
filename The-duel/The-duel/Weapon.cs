@@ -21,14 +21,20 @@ namespace The_duel
             parryChance = parry;
         }
 
-        public void swing()
+        public int swing()
         {
-            Console.WriteLine("Swinging " + weaponName);
+            Random rnd = new Random();
+            return rnd.Next(weaponDamage) + 1;
+
+            
         }
 
-        public void parry()
+        public bool parry()
         {
-            Console.WriteLine("Trying to parry");
+            Random rnd = new Random();
+            return (rnd.Next(100) + 1 < parryChance) ? true : false;
+            //This can be done with a standard if and else, but I decided to do it on one line.
+
 
         }
     }

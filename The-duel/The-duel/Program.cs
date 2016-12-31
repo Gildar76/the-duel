@@ -20,6 +20,10 @@ namespace The_duel
             playerCharacter.defend();
             Console.WriteLine(playerCharacter.characterName);
 
+            //Weapon test
+            Weapon playerWeapon = new Weapon("test", 1, 5, 50);
+            playerWeapon.swing();
+            playerWeapon.parry();
 
             //Adding a Console.readline to prevent window from closing
             Console.ReadLine();

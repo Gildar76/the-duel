@@ -15,9 +15,11 @@ namespace The_duel
             string playerName = Console.ReadLine();
 
             string[] opponentNames = new string[] { "Gildar", "Styrbjorn", "Twizz", "Kharog" };
-            Character playerCharacter = new Character();
+            Character playerCharacter = new Character("Gildar", 20);
             playerCharacter.attack();
             playerCharacter.defend();
+            Console.WriteLine(playerCharacter.characterName);
+
 
             //Adding a Console.readline to prevent window from closing
             Console.ReadLine();

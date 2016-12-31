@@ -11,6 +11,12 @@ namespace The_duel
         public int hitPoints;
         public string characterName;
 
+        public Character(string name, int hitPoints)
+        {
+            characterName = name;
+            this.hitPoints = hitPoints;
+        }
+
         public void attack()
         {
             Console.WriteLine("Attacking!");

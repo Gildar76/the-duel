@@ -1,0 +1,6 @@
+D:\Projects\the-duel\The-duel\The-duel\bin\Debug\The-duel.exe.config
+D:\Projects\the-duel\The-duel\The-duel\bin\Debug\The-duel.exe
+D:\Projects\the-duel\The-duel\The-duel\bin\Debug\The-duel.pdb
+D:\Projects\the-duel\The-duel\The-duel\obj\Debug\The-duel.csprojResolveAssemblyReference.cache
+D:\Projects\the-duel\The-duel\The-duel\obj\Debug\The-duel.exe
+D:\Projects\the-duel\The-duel\The-duel\obj\Debug\The-duel.pdb

@@ -10,6 +10,12 @@ namespace The_duel
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("WELCOME TO THE DUEL!");
+            Console.Write("Please enter the name you want to use for your character");
+            string playerName = Console.ReadLine();
+
+            //Adding a Console.readline to prevent window from closing
+            Console.ReadLine();
         }
     }
 }

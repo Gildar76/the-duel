@@ -10,21 +10,32 @@ namespace The_duel
     {
         public int hitPoints;
         public string characterName;
+        public Weapon weapon;
+        public int hitChance;
 
-        public Character(string name, int hitPoints)
+        public Character(string name, int hitPoints, Weapon weapon, int hitChance)
         {
             characterName = name;
             this.hitPoints = hitPoints;
+            this.weapon = weapon;
+            this.hitChance = hitChance;
         }
 
-        public void attack()
+        public int attack()
         {
-            Console.WriteLine("Attacking!");
+            Random rnd = new Random();
+            bool isHit = (rnd.Next(100) + 1 < hitChance) ? true : false;
+            if (isHit)
+            {
+                return weapon.swing();
+
+            }
+            return 0;
         }
 
-        public void defend()
+        public bool defend()
         {
-            Console.WriteLine("Defending!");
+            return weapon.parry();
 
         }
     }

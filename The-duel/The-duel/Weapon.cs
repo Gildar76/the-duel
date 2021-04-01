@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace The_duel
 {
-    class Weapon
+    class Weapon2
     {
         public string weaponName;
         public int weaponSpeed;

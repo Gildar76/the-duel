@@ -8,7 +8,7 @@ namespace The_duel
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             Console.WriteLine("WELCOME TO THE DUEL!");
             Console.Write("Please enter the name you want to use for your character ");
